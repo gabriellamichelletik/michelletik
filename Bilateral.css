@@ -1,0 +1,75 @@
+.header{
+    width: 1280px;
+    position: fixed;
+}
+/* Kode CSS Navigator */
+ul{
+    list-style-type: none;
+    background-color:black;
+    padding: 0px 0px;
+    margin: 150px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    padding: 10px 24px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: yellow;
+}
+/* Kode CSS Dropdown */
+ul li ul.dropdown{
+    background-color: palevioletred;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* Kode CSS Side Bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* Left column */
+.column.side{
+    margin: 190px 0px;
+    width: 255px;
+    height: 430px;
+    background-color: coral;
+}
+/* Kode CSS Middle Bar */
+.column.middle{
+    margin: 190px 0px;
+    width: 950px;
+    height: 430px;
+    background-color: cornsilk;
+}
+/* Kode CSS Footer */
+.footer{
+    width: 1280px;
+    position: fixed;
+    margin: 430px;
+}
+h1{
+    color: coral;
+    text-shadow: 3px 2px 5px orange;
+    font-family: cursive;
+}
+h2{
+    color: peachpuff;
+    text-shadow: 3px 2px 5px black;
+    font-family: cursive;
+}
